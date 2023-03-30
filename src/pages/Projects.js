@@ -1,10 +1,9 @@
 
 
-
 function Projects () {
     return (
-        <div>
-            Projects
+        <div className="page">
+            <h2>Projects</h2>
         </div>
     )
 }
