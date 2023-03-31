@@ -1,8 +1,8 @@
-import { useParams, useHistory } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
 
 import { useState, useEffect } from "react";
-import Homepage from "./Homepage";
+// import Homepage from "./Homepage";
 
 function Character () {
     const [charData, setCharData] = useState(null);
@@ -17,7 +17,8 @@ function Character () {
     const getCharData = async () => {
         try {
             const res = await axios.get(url);
-            setCharData(res.data) 
+            setCharData(res.data)
+            console.log(res.data) 
         } catch (e) {
             console.error(e);
         }
@@ -33,6 +34,7 @@ function Character () {
         return (
         <div className="page">
             <h2>{char}</h2>
+            {/* {readings.mandarinpinyin.map(sound => <h3>{sound}</h3>)} */}
             <h3>{readings.mandarinpinyin[0]}</h3>
             <h3>For more info, see<a href={url} target='_blank' rel='noreferrer'>here.</a></h3>
             <button>Back to Home</button>

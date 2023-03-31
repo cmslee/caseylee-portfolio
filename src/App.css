@@ -10,6 +10,11 @@ font-family: 'Shanti', sans-serif;
   text-align: center;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .page {
   max-width: 500px;
   margin: 0 auto;

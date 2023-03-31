@@ -16,7 +16,7 @@ function Homepage(props) {
                     const { zi } = char;
 
                     return (
-                        <Link to={`/${zi}`} className='chars'>{char.zi}</Link>
+                        <Link key={zi} to={`/${zi}`} className='chars'>{char.zi}</Link>
                     )
                 }))
                 }
