@@ -13,30 +13,33 @@ font-family: 'Shanti', sans-serif;
 body {
   display: flex;
   flex-direction: column;
+  /* max-width: 45rem;
+  margin: 0 auto; */
 }
 
 .page {
-  max-width: 500px;
-  margin: 0 auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, p {
   font-family: 'Comic Neue';
+  margin-left: .1rem;
+  margin-right: .1rem;
 }
 
 #about, #avatar-credit {
-  margin-left: 50px;
-  margin-right: 50px;
+  max-width: 38rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
   text-align: justify;
 }
 
-
 a {
   color: rgb(84, 84, 84);
-  margin-left: 10px;
-  margin-right: 5px;
 }
 
 nav {
@@ -44,18 +47,19 @@ nav {
   flex-direction: row;
   justify-content: right;
   background-color: rgb(252, 126, 126);
-  padding-top: 20px;  
-  padding-bottom: 5px;
-  padding-right: 5px;
+  padding-top: 2rem;  
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
 }
 
 .menu {
   display: inline-flex;
-
+  margin: .5rem;
+  font-size: larger;
 }
 
 #avatar {
-  width: 250px;
+  width: 16rem;
 }
 
 .chars {
