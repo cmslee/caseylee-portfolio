@@ -13,10 +13,10 @@ function Homepage(props) {
             <img id='avatar' src={avatar} alt='Avatar' />
             <h2>
                 {characters.map((char => {
-                    const { zi, pinyin } = char;
+                    const { zi } = char;
 
                     return (
-                        <Link to={`/${pinyin}`} className='chars'>{char.zi}</Link>
+                        <Link to={`/${zi}`} className='chars'>{char.zi}</Link>
                     )
                 }))
                 }

@@ -2,6 +2,8 @@ import {Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
 
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
 import About from './pages/About';
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects';
@@ -12,7 +14,7 @@ import hanzi from './data/Data';
 import './App.css';
 
 function App() {
-  const [data, setData] = useState(hanzi);
+  const [data] = useState(hanzi);
 
   return (
     <div className="App">
@@ -21,8 +23,9 @@ function App() {
         <Route path='/' element={<Homepage characters={data}/>}/>
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />}/>
-        <Route path='/:pinyin' element={<Character />} />
+        <Route path='/:zi' element={<Character />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
