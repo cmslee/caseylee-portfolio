@@ -105,12 +105,14 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 60%
 }
 
 .project-box {
   width: 10rem;
   height: 10rem;
+  margin-bottom: 2rem;
   border-style: solid;
   border-color: lightgrey;
   border-radius: 5%;
