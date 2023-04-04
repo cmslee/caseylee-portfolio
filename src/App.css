@@ -39,9 +39,13 @@ h1, h2, h3, h4, p {
 }
 
 a {
-  color: rgb(84, 84, 84);
+  color: cadetblue;
+  text-decoration: none;
 }
 
+.menu-text {
+  color:rgb(112, 112, 112)
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -54,16 +58,74 @@ nav {
 
 .menu {
   display: inline-flex;
-  margin: .5rem;
   font-size: larger;
+  padding: .5rem;
+}
+
+.menu:hover {
+  background-color: rgb(248, 236, 220);
 }
 
 #avatar {
   width: 16rem;
 }
 
+.charContainer {
+  margin-bottom: 0rem;
+}
+
 .chars {
   display: inline-flex;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: rgb(112, 112, 112);
+
+}
+
+.chars:hover{
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+}
+
+.back-button {
+  margin-top: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5em;
+  border-radius: 50%;
+  border: rgb(112, 112, 112);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+
+.back-button:active {
+  transform: translateY(.1rem)
+}
+
+.projects {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%
+}
+
+.project-box {
+  width: 10rem;
+  height: 10rem;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 5%;
+}
+
+.project-box:hover {
+  background-color:  rgb(248, 236, 220);
+}
+
+span {
+  font-style: italic;  
+}
+
+footer {
+  padding: .5rem;
 }
 
 

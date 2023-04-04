@@ -11,7 +11,7 @@ function Homepage(props) {
         <div className='page'>
             <h1>Hi. I'm Casey.</h1>
             <img id='avatar' src={avatar} alt='Avatar' />
-            <h2>
+            <h2 className='charContainer'>
                 {characters.map((char => {
                     const { zi } = char;
 

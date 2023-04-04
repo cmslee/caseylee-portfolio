@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
 import { useState, useEffect } from "react";
@@ -12,7 +12,8 @@ function Character () {
     const char = params.zi;
     const url = `https://api.ctext.org/getcharacter?char=${char}`
 
-    // console.log(url)
+    const navigate = useNavigate();
+    const goBack = () => navigate(-1);
 
     const getCharData = async () => {
         try {
@@ -35,9 +36,9 @@ function Character () {
         <div className="page">
             <h2>{char}</h2>
             {/* {readings.mandarinpinyin.map(sound => <h3>{sound}</h3>)} */}
-            <h3>{readings.mandarinpinyin[0]}</h3>
-            <h3>For more info, see<a href={url} target='_blank' rel='noreferrer'>here.</a></h3>
-            <button>Back to Home</button>
+            <h3>read: {readings.mandarinpinyin[0]}</h3>
+            <h3>For more info, see <a href={url} target='_blank' rel='noreferrer'>here.</a></h3>
+            <button className="back-button" onClick={goBack}>{`<`}</button>
         </div>
         )
     }
