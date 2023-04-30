@@ -127,7 +127,18 @@ span {
 }
 
 footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: .5rem;
 }
 
+.icon {
+  color: rgb(1, 1, 97);
+}
 
+svg {
+  height: 1.5em;
+  width: 1.5em;
+}

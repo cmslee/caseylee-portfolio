@@ -19,4 +19,7 @@ As it stands, the API I chose doesn't display very interesting data about the ch
 
 An image should be added for each project displayed to add visual interest and a project preview. 
 
-The footer should be a link to an external site that displays as an icon. It also should not appear on Character page.
+
+## Reference
+
+[CSS "Always on the bottom" Footer](https://codepen.io/cbracco/pen/kQmVGM)

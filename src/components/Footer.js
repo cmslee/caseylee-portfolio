@@ -1,9 +1,11 @@
-
+import { GrLinkedin } from 'react-icons/gr';
 
 function Footer () {
     return (
         <footer>
-            LinkedIN
+            <a className='icon' href='https://www.linkedin.com/in/casey-lee1' target='_blank' rel='noreferrer'>
+                <GrLinkedin/>
+            </a> 
         </footer>
     )
 }
