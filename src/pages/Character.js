@@ -4,7 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 // import Homepage from "./Homepage";
 
-function Character () {
+function Character ({characters}) {
     const [charData, setCharData] = useState(null);
     const params = useParams();
     // console.log(params);
@@ -31,13 +31,15 @@ function Character () {
 
     const loaded = () => {
         const {char, readings, url } = charData;
+        // const {word, reading, meaning} = characters;
 
         return (
         <div className="page">
             <h2>{char}</h2>
             {/* {readings.mandarinpinyin.map(sound => <h3>{sound}</h3>)} */}
             <h3>read: {readings.mandarinpinyin[0]}</h3>
-            <h3>For more info, see <a href={url} target='_blank' rel='noreferrer'>here.</a></h3>
+            {/* <h3>as in: {word}({reading})</h3> */}
+            <h3>Click <a href={url} target='_blank' rel='noreferrer'>here</a> to see where you can find this character in classical texts.</h3>
             <button className="back-button" onClick={goBack}>{`<`}</button>
         </div>
         )

@@ -1,6 +1,8 @@
 import avatar from './avatar.png';
 import { Link } from 'react-router-dom';
 
+import Footer from '../components/Footer';
+
 // console.log(avatar);
 
 
@@ -22,6 +24,7 @@ function Homepage(props) {
                 }
             </h2>
             <h2>I translate (CN/JP-{'>'}EN), edit, and code.</h2>
+            <Footer/>
         </div>
     )
 }

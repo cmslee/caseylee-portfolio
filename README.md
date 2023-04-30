@@ -15,11 +15,11 @@ The design approach I took was clean, minimal, and responsive. Content is a spre
 
 ## Unsolved Problems
 
-As it stands, the API I chose doesn't display very interesting data about the characters displayed on the homepage, such as the meaning and significance of the character. This is partly due the tricky nature of language-related data, which can be quite unruly, but a solution might be to use multiple APIs.
+As it stands, the API I chose doesn't display very interesting data about the characters displayed on the homepage, such as the meaning and significance of the character. This is partly due the tricky nature of language-related data, which can be quite un-uniform and unruly. One solution might be to use multiple APIs. Another more direct approach is to expand data properties according to the needs of the webpage.
 
-An image should be added for each project displayed to add visual interest and a project preview. 
+The projects page is setup for additions; however, there may be styling and formatting issues as more projects are added.
 
 
-## Reference
+## References/Credits
 
-[CSS "Always on the bottom" Footer](https://codepen.io/cbracco/pen/kQmVGM)
+[Chinese Text API Documentation](https://ctext.org/plugins/apilist/)

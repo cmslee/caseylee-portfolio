@@ -104,11 +104,12 @@ nav {
   margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 60%
 }
 
+/* replaced project-boxes with figures
 .project-box {
   width: 10rem;
   height: 10rem;
@@ -121,16 +122,43 @@ nav {
 .project-box:hover {
   background-color:  rgb(248, 236, 220);
 }
+*/
+
+.project-image {
+  border-style: solid;
+  max-width: fit-content;
+}
+
+.child-figure {
+  display: flex;
+  flex-direction: column;
+}
+
+.child-figure:hover {
+  filter: saturate(25%);
+}
 
 span {
   font-style: italic;  
 }
 
+.publications {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pubs-image {
+  border-style: groove;
+  max-height: 300px;
+}
+
 footer {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
+  top: 1rem;
   padding: .5rem;
 }
 

@@ -2,7 +2,6 @@ import {Routes, Route} from 'react-router-dom';
 import { useState } from 'react';
 
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 import About from './pages/About';
 import Homepage from './pages/Homepage'
@@ -23,9 +22,8 @@ function App() {
         <Route path='/' element={<Homepage characters={data}/>}/>
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />}/>
-        <Route path='/:zi' element={<Character />} />
+        <Route path='/:zi' element={<Character characters={data}/>} />
       </Routes>
-      <Footer />
     </div>
   );
 }
