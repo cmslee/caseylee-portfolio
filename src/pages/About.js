@@ -10,7 +10,7 @@ function About () {
         <div className="page">
             <h2>About</h2>
             <h3 id='about'>
-                Casey Lee is a multi-media translator, wordsmith, and researcher with an MA in East Asian Studies. Her academic translations can be found in <span>Journal of Chinese Humanities</span> and <span>differences: A Journal of Feminist Cultural Studies</span>. They are currently translating <span>Lovely Muco</span> by Takayuki Mizushina. The <a href="https://www.penguinrandomhouse.com/books/723217/lovely-muco-1-by-takayuki-mizushina/" target="_blank" rel="noreferrer">first volume</a> will be out in May 2023. 
+                Casey Lee is a multi-media translator, wordsmith, and researcher with an MA in East Asian Studies. Her academic translations can be found in <span>Journal of Chinese Humanities</span> and <span>differences: A Journal of Feminist Cultural Studies</span>. They are currently translating <span>Lovely Muco</span> by Takayuki Mizushina. The <a href="https://www.penguinrandomhouse.com/books/723217/lovely-muco-1-by-takayuki-mizushina/" target="_blank" rel="noreferrer">first volume</a> is currently available for order. 
             </h3>
             <div className="publications">
                 <figure className="pubs-figure">
