@@ -1,10 +1,10 @@
 import Footer from "../components/Footer";
+import differences_24_2_cover from "../img/differences_24_2_cover.png";
 
 function About () {
 
     const JochUrl = 'https://brill.com/coverimage?doc=%2Fjournals%2Fjoch%2Fjoch-overview.xml&width=300&type=webp';    
     const MucoCoverUrl = 'https://images3.penguinrandomhouse.com/cover/9781647292393';
-    const DifferencesUrl = 'https://dup.silverchair-cdn.com/dup/Content_public/Journal/differences/Issue/24/2/2/m_dddif_24_2_cover.png?Expires=1688949266&Signature=g7JAR0k5B0-uOcw0CfG-QRRIkZoqu0d8jDo1SNLo258N51IjSMAiQ~tbH6tauaMobwH0HWlaIweAtt9AMx0bHEbXaeBjcm~3eeM8RWMyS9xJWOS5n0CqzW37K2RmzMWFiyVVpg6ae7ln2rVYQioCPp2kjW7HBiwJOOJ4p6v7g2Ti6KBKRmjhMA25k9bmKz6SfD6Ld4~DK12cFkc~1ffKpjtCo~4w-~3DlEh8F7Kzxi3h2AFm5sLxMSKe4OxGyMR5WckEkpx65bsjyaTiWWX4eLJJIqHEhDBCTmt2PcvMDbHNHfXw~8ActB4tSJjvkD1kq36yhyT~yPzF3uk49pFwgA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA';
 
     return (
         <div className="page">
@@ -20,7 +20,7 @@ function About () {
                     <img className="pubs-image" src={MucoCoverUrl} alt="Lovely Muco book cover"></img>
                 </figure>
                 <figure>
-                    <img className="pubs-image" src={DifferencesUrl} alt="differences journal cover for volume 24 issue 2"></img>
+                    <img className="pubs-image" src={differences_24_2_cover} alt="differences journal cover for volume 24 issue 2"></img>
                 </figure>
             </div>
             <h4 id='avatar-credit'>
