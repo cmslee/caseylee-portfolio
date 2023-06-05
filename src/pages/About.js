@@ -4,7 +4,7 @@ function About () {
 
     const JochUrl = 'https://brill.com/coverimage?doc=%2Fjournals%2Fjoch%2Fjoch-overview.xml&width=300&type=webp';    
     const MucoCoverUrl = 'https://images3.penguinrandomhouse.com/cover/9781647292393';
-    const DifferencesUrl = 'https://dup.silverchair-cdn.com/dup/Content_public/Journal/differences/Issue/24/2/2/m_dddif_24_2_cover.png?Expires=1685915467&Signature=SR87beVQSCq-QUZHLW7qs~r8NrToWhWxBy-YBo~u81hrQwzY7Umdy~STuX8uaeW~2o1e2u9GXiWWzWEtIBCRSATS5afRu9oFPLdpd-M8WRQaPkyzmWR2mOCt-~LnmA5uEKl3xcOr~msEwWLQSMAHT5Q~vA1-OXguqSS6loWtNbUFlC24edVvycHLKUSP6VA2ysMeqKVBNRZA1f626kjo9y5cDqrB-BWfmUWYlLig7LF4QdAp1N-0pGUf0gjihV8IH8xJFhUn~-7lybd70YKXA1AcjxiPLC300eVgs2v8rDIjB2jKx2iflckndIE1QRaP5tqTy~eF5N6Vd4vR~7LLUQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA';
+    const DifferencesUrl = 'https://read.dukeupress.edu/differences/issue/24/2';
 
     return (
         <div className="page">
