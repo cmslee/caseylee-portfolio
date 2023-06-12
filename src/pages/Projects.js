@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import recipe_game from '../img/recipe_game.jpg';
+import glossary_sfx from '../img/glossary_sfx.jpg';
 
 function Projects() {
     return (
@@ -7,7 +8,7 @@ function Projects() {
             <h2>Projects</h2>
             <div className="projects">
                 <figure className="child-figure">
-                    <a href="https://cmslee.github.io/recipegame/" target='_blank' rel="noreferrer">
+                    <a href="https://github.com/cmslee/recipegame" target='_blank' rel="noreferrer">
                         <img className="project-image" src={recipe_game} alt="kitsune udon">
                         </img>
                     </a>
@@ -15,6 +16,17 @@ function Projects() {
                         "What's for Dinner Tonight?"
                         <br/>
                         JS choose-your-own-adventure recipe game
+                    </figcaption>
+                </figure>
+                <figure className="child-figure">
+                    <a href="https://github.com/cmslee/final-project" target='_blank' rel="noreferrer">
+                        <img className="project-image" src={glossary_sfx} alt="Japanese sound words handwritten on notes and related reference books">
+                        </img>
+                    </a>
+                    <figcaption>
+                        "Japanese SFX Glossary app"
+                        <br/>
+                        Full CRUD reference tool created with MERN stack
                     </figcaption>
                 </figure>
                 {/* <figure>
