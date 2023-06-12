@@ -24,9 +24,9 @@ function Projects() {
                         </img>
                     </a>
                     <figcaption>
-                        "Japanese SFX Glossary app"
+                        "Japanese SFX Glossary-maker"
                         <br/>
-                        Full CRUD reference tool created with MERN stack
+                        Full CRUD translation reference tool created with MERN stack
                     </figcaption>
                 </figure>
                 {/* <figure>
